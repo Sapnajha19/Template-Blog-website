@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  
+  
+}
+
+/*body{
+  width:1500px;
+}*/
+
+header{
+   background:rgb(226, 226, 156);
+   
+   height:50px;
+}
+#logo{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(210, 9, 9);
+  font-size:37px;
+  margin-right:550px;
+  margin-left:15px;
+}
+.nav{
+  font-size:20px;
+  /*box-sizing: border-box;*/
+}
+.nav:hover{
+  background:rgb(245, 245, 191);
+  padding:13px 0px;
+}
+a{
+  text-decoration:none;
+  color:rgb(210, 9, 9);
+  margin-left:33px;
+  margin-right:0px;
+ 
+}
+#searchbar{
+  margin-left:33px;
+  border:2px solid black;
+  border-radius:4px;
+  padding:3px 2px;
+  padding-left:5px;
+}
+#Searchbtn{
+  padding:2px 2px;
+  border-radius:3px;
+  cursor:pointer;
+  border-color:rgb(220, 244, 9);
+  background: rgb(7, 247, 19);
+
+}
+#Searchbtn:hover{
+  background:rgb(145, 249, 10);
+  border-color: rgb(220, 244, 9);
+}
+
+
+.contact-content{  
+    height: 100vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .contact-content::after {
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+
+  .footer{
+    width:100vw;
+    height:50px;
+    background:rgb(138, 237, 138);
+    position: absolute;
+    top:700px;
+    text-align: center;
+}
+#ft{
+    position: absolute;
+    left:585px;
+    cursor: pointer;
+}
+#ft:hover{
+    text-decoration: underline;
+}
